@@ -1,0 +1,34 @@
+# -----------------------------
+# -- Lists --
+# -----------
+# [1] List Items Are Enclosed in Square Brackets []
+# [2] List Are Ordered, To Use Index To Access Item
+# [3] List Are Mutable => Add, Delete, Edit
+# [4] List Items Is Not Unique => it's ok to repeated
+# [5] List Can Have Different Data Types => important
+# -----------------------------
+
+# lists could have different data types unlike arrays
+myAwesomeList = ["One", "Two", "One", 1, 100.5, True]
+
+print(myAwesomeList)      # Whole List
+print(myAwesomeList[1])   # "Two"
+print(myAwesomeList[-1])  # True
+print(myAwesomeList[-3])  # 1
+
+print(myAwesomeList[1:4])  # ['Two', 'One', 1]
+print(myAwesomeList[:4])  # ['One', 'Two', 'One', 1]
+print(myAwesomeList[1:])  # ['Two', 'One', 1, 100.5, True]
+
+print(myAwesomeList[::1])  # ['One', 'Two', 'One', 1, 100.5, True]
+print(myAwesomeList[::2])  # ['One', 'One', 100.5]
+
+print(myAwesomeList)
+myAwesomeList[1] = 2
+myAwesomeList[-1] = False
+myAwesomeList[0:3] = ["A"]
+print(myAwesomeList)
+myAwesomeList[0:3] = ["A","B","C"]
+print(myAwesomeList)
+myAwesomeList[0:2] = []
+print(myAwesomeList)
