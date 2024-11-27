@@ -7,6 +7,7 @@ a = {1,2,3,4,5,6,7}
 a.clear()
 print(a)
 
+print('='*50)
 
 # union()
 b = {"One","Two","Three"}
@@ -38,6 +39,7 @@ g.remove(1)
 # g.remove(8)     # Will give yoy error 
 print(g)
 
+print('='*50)
 
 # discard ()
 h = {1,2,3,4,5,6}
@@ -50,6 +52,7 @@ print(h)
 i = {"A",True,1,2,3,4,5,6}
 print(i.pop())
 
+print('='*50)
 
 # update ()
 j = {1,2,3,4,5,6,7,8,9}

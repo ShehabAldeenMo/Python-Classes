@@ -28,16 +28,22 @@ a.extend(c)
 
 print(a)
 
+print('='*50)
+
 # remove()
 x = [1, 2, 3, 4, 5, "Osama", True, "Osama", "Osama"]
 x.remove("Osama")
 print(x)
+
+print('='*50)
 
 # sort()
 y = [1, 2, 100, 120, -10, 17, 29]
 # y = ["A", "Z", "C"]
 y.sort(reverse=True)
 print(y)
+
+print('='*50)
 
 # reverse()
 z = [10, 1, 9, 80, 100, "Osama", 100]

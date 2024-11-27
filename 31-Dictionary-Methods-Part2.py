@@ -32,6 +32,9 @@ view = {
   "skill": "XBox"
 }
 
+print("=" * 40)
+print("=" * 40)
+
 allItems = view.items()
 print(allItems)
 view["age"] = 36

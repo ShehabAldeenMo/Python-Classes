@@ -7,7 +7,6 @@ b = {1,2,3,"shehab","Mohammed"}
 
 print(a)
 print(a.difference(b))
-print(a)
 print("=" * 40) # separator
 
 # difference_update()

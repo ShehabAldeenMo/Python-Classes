@@ -1,6 +1,6 @@
 # -----------------------------
-# -- Set --
-# ---------
+# ----------- Set -------------
+# -----------------------------
 # [1] Set Items Are Enclosed in Curly Braces {}
 # [2] Set Items Are Not Ordered And Not Indexed
 # [3] Set Indexing and Slicing Can't Be Done

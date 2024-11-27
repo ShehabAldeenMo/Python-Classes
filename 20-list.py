@@ -23,11 +23,16 @@ print(myAwesomeList[1:])  # ['Two', 'One', 1, 100.5, True]
 print(myAwesomeList[::1])  # ['One', 'Two', 'One', 1, 100.5, True]
 print(myAwesomeList[::2])  # ['One', 'One', 100.5]
 
+print('='*50)
+
 print(myAwesomeList)
 myAwesomeList[1] = 2
 myAwesomeList[-1] = False
 myAwesomeList[0:3] = ["A"]
 print(myAwesomeList)
+
+print('='*50)
+
 myAwesomeList[0:3] = ["A","B","C"]
 print(myAwesomeList)
 myAwesomeList[0:2] = []
